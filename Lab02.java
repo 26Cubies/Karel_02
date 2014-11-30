@@ -2,8 +2,8 @@
 *
 * An athlete navigates a maze while leaving a trail of beepers
 *
-* @author <Your Name here>  // replace <...> with your name
-* @version <date/of/completion> // replace <...> with the date
+* @author <Stefan Chao>
+* @version <Nov 24 2014>
 */
 
 import edu.fcps.karel2.Display;
@@ -12,6 +12,75 @@ import edu.fcps.karel2.Robot;
 public class Lab02 {
 
      public static void main(String[] args) {
-          // TODO Your code goes here
+ 		Display.openWorld("maps/maze.map");
+ 		Display.setSize(8, 8);
+ 		Display.setSpeed(12);
+ 		Athlete maria = new Athlete();
+ 		
+ 		maria.move();
+ 		maria.putBeeper();
+ 		maria.turnRight();
+ 		maria.putBeeper();
+ 		maria.move();
+ 		maria.putBeeper();
+
+ 		maria.turnRight();
+ 		maria.putBeeper();
+
+ 		maria.move();
+ 		maria.putBeeper();
+
+ 		maria.turnLeft();
+ 		maria.putBeeper();
+
+ 		maria.move();
+ 		maria.putBeeper();
+
+ 		maria.turnLeft();
+ 		maria.putBeeper();
+
+ 		maria.move();
+ 		maria.putBeeper();
+
+ 		maria.turnRight();
+ 		maria.putBeeper();
+
+ 		maria.move();
+ 		maria.putBeeper();
+
+ 		maria.move();
+ 		maria.putBeeper();
+
+ 		maria.turnRight();
+ 		maria.putBeeper();
+
+ 		maria.move();
+ 		maria.putBeeper();
+
+ 		maria.turnLeft();
+ 		maria.putBeeper();
+
+ 		maria.move();
+ 		maria.putBeeper();
+
+ 		maria.turnLeft();
+ 		maria.putBeeper();
+
+ 		for(int i = 0; i <=3; i++){
+ 			maria.move();
+ 	 		maria.putBeeper();
+
+ 		}
+ 		maria.turnRight();
+ 		maria.putBeeper();
+
+ 		maria.move();
+ 		maria.putBeeper();
+
+ 		maria.move();
+ 		maria.putBeeper();
+
+ 		
+ 		
      }
 }

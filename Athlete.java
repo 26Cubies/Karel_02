@@ -22,11 +22,14 @@ public class Athlete extends Robot {
 	}
 	
 	public void turnAround() {
-		// TODO Your code goes here
-	}
+turnLeft();
+turnLeft();
+}
 	
 	public void turnRight() {
-		// TODO Your code goes here
-	}
+turnLeft();
+turnLeft();
+turnLeft();
+}
 
 }
